@@ -2967,7 +2967,7 @@
 <label x="-307.34" y="-83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="SW12" class="0">
+<net name="SW" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PWM11"/>
 <wire x1="-91.44" y1="58.42" x2="-91.44" y2="-78.74" width="0.1524" layer="91"/>
