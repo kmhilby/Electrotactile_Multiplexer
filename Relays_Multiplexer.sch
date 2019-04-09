@@ -2796,7 +2796,7 @@
 <wire x1="-205.74" y1="-127" x2="-198.12" y2="-127" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="SDA" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="J1" gate="G$1" pin="1"/>
@@ -2811,7 +2811,7 @@
 <wire x1="-223.52" y1="-101.6" x2="-198.12" y2="-101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="SCL" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
 <pinref part="R18" gate="G$1" pin="1"/>
