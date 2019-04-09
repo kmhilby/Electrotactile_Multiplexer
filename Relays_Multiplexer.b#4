@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1760,6 +1760,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="101.4" y="38.6"/>
 <vertex x="14.6" y="38.6"/>
 </polygon>
+<via x="33.782" y="65.532" extent="1-16" drill="0.254"/>
+<via x="36.703" y="65.659" extent="1-16" drill="0.254"/>
 </signal>
 <signal name="N$1">
 <contactref element="R3" pad="1"/>
