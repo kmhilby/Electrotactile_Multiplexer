@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -166,14 +166,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="14.12" y1="38.6" x2="102.1" y2="38.5" width="0" layer="20"/>
-<wire x1="102.1" y1="38.5" x2="102.15" y2="109.57" width="0" layer="20"/>
-<wire x1="102.15" y1="109.57" x2="13.87" y2="109.47" width="0" layer="20"/>
-<wire x1="13.87" y1="109.47" x2="14.12" y2="38.6" width="0" layer="20"/>
+<wire x1="14.62" y1="39" x2="101.5" y2="38.95" width="0" layer="20"/>
+<wire x1="101.5" y1="38.95" x2="101.35" y2="107.57" width="0" layer="20"/>
+<wire x1="101.35" y1="107.57" x2="14.27" y2="107.57" width="0" layer="20"/>
+<wire x1="14.27" y1="107.57" x2="14.62" y2="39" width="0" layer="20"/>
 <text x="28.45" y="42.65" size="1" layer="21" font="vector" ratio="10" rot="R270">Sig +</text>
 <text x="30.9" y="42.6" size="1" layer="21" font="vector" ratio="10" rot="R270">Sig -</text>
-<text x="36.1" y="42.55" size="1" layer="21" font="vector" ratio="10" rot="R270">SDA</text>
-<text x="38.9" y="42.5" size="1" layer="21" font="vector" ratio="10" rot="R270">SCL</text>
+<text x="37.05" y="42.6" size="1" layer="21" font="vector" ratio="10" rot="R270">SDA</text>
+<text x="39.8" y="42.55" size="1" layer="21" font="vector" ratio="10" rot="R270">SCL</text>
 <text x="73.5" y="42.3" size="1" layer="21" font="vector" ratio="10" rot="R270">+5V</text>
 <text x="76.1" y="42.35" size="1" layer="21" font="vector" ratio="10" rot="R270">GND</text>
 <text x="33.15" y="96.8" size="1" layer="21" font="vector" ratio="10" rot="R180">GND</text>
@@ -277,31 +277,6 @@
 </library>
 <library name="_connectors">
 <packages>
-<package name="HDRV2W64P254_1X2_508X254X838B" urn="urn:adsk.eagle:footprint:4781709/7">
-<description>Single-row, 2-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) col pitch, 5.84 mm mating length, 5.08 X 2.54 X 8.38 mm body
-&lt;p&gt;Single-row (1X2), 2-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.05 mm tail length and 5.84 mm mating length with overall size 5.08 X 2.54 X 8.38 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
-<circle x="-2.67" y="-1.4" radius="0.5" width="0" layer="21"/>
-<wire x1="2.6307" y1="-1.3591" x2="-2.6307" y2="-1.3591" width="0.12" layer="21"/>
-<wire x1="-2.6307" y1="-1.3591" x2="-2.6307" y2="1.3591" width="0.12" layer="21"/>
-<wire x1="-2.6307" y1="1.3591" x2="2.6307" y2="1.3591" width="0.12" layer="21"/>
-<wire x1="2.6307" y1="1.3591" x2="2.6307" y2="-1.3591" width="0.12" layer="21"/>
-<wire x1="2.54" y1="-1.27" x2="-2.54" y2="-1.27" width="0.12" layer="51"/>
-<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.12" layer="51"/>
-<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.12" layer="51"/>
-<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.12" layer="51"/>
-<wire x1="-2.794" y1="-1.524" x2="2.794" y2="-1.524" width="0.127" layer="39"/>
-<wire x1="2.794" y1="-1.524" x2="2.794" y2="1.524" width="0.127" layer="39"/>
-<wire x1="2.794" y1="1.524" x2="-2.794" y2="1.524" width="0.127" layer="39"/>
-<wire x1="-2.794" y1="1.524" x2="-2.794" y2="-1.524" width="0.127" layer="39"/>
-<wire x1="-2.413" y1="-1.143" x2="2.413" y2="-1.143" width="0.127" layer="40"/>
-<wire x1="2.413" y1="-1.143" x2="2.413" y2="1.143" width="0.127" layer="40"/>
-<wire x1="2.413" y1="1.143" x2="-2.413" y2="1.143" width="0.127" layer="40"/>
-<wire x1="-2.413" y1="1.143" x2="-2.413" y2="-1.143" width="0.127" layer="40"/>
-<pad name="1" x="-1.27" y="0" drill="1" diameter="1.85"/>
-<pad name="2" x="1.27" y="0" drill="1" diameter="1.85"/>
-<text x="-2.921" y="0" size="0.5" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="2.921" y="0" size="0.25" layer="27" font="vector" ratio="10" rot="R90" align="top-center">&gt;VALUE</text>
-</package>
 <package name="_MOLEX-5025983393_FPC_PITCH-0.3MM" urn="urn:adsk.eagle:footprint:3945518/1" locally_modified="yes">
 <wire x1="-6" y1="1.775" x2="-6" y2="-1.775" width="0.127" layer="21"/>
 <wire x1="-6" y1="-1.775" x2="6" y2="-1.775" width="0.127" layer="21"/>
@@ -460,13 +435,6 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="HDRV2W64P254_1X2_508X254X838B" urn="urn:adsk.eagle:package:4781708/8" type="model">
-<description>Single-row, 2-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) col pitch, 5.84 mm mating length, 5.08 X 2.54 X 8.38 mm body
-&lt;p&gt;Single-row (1X2), 2-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.05 mm tail length and 5.84 mm mating length with overall size 5.08 X 2.54 X 8.38 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="HDRV2W64P254_1X2_508X254X838B"/>
-</packageinstances>
-</package3d>
 <package3d name="_MOLEX-5025983393_FPC_PITCH-0.3MM" urn="urn:adsk.eagle:package:3945547/2" locally_modified="yes" type="model">
 <packageinstances>
 <packageinstance name="_MOLEX-5025983393_FPC_PITCH-0.3MM"/>
@@ -790,15 +758,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="34.29" y="83.82" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center"/>
 <attribute name="VALUE" x="34.29" y="73.66" size="0.25" layer="27" font="vector" ratio="10" align="top-center"/>
 </element>
-<element name="J1" library="_connectors" package="HDRV2W64P254_1X2_508X254X838B" package3d_urn="urn:adsk.eagle:package:4781708/8" value="PTH VERT MALE" x="38.1" y="44.45" smashed="yes">
-<attribute name="DATASHEET" value="https://drawings-pdf.s3.amazonaws.com/C10436.pdf" x="77.47" y="-8.89" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="Digikey" x="77.47" y="-8.89" size="1.778" layer="27" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=S1012E-02-ND" x="77.47" y="-8.89" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="S1012E-02-ND" x="77.47" y="-8.89" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Sullins Connector Solutions" x="77.47" y="-8.89" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="PEC02SAAN" x="77.47" y="-8.89" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="35.179" y="44.45" size="0.5" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="41.021" y="44.45" size="0.25" layer="27" font="vector" ratio="10" rot="R90" align="top-center"/>
+<element name="J1" library="_connectors" package="HDRVR2W64P254_1X2_558X254X850B" package3d_urn="urn:adsk.eagle:package:4781720/1" value="PTH VERT FEMALE" x="37.55" y="44.45" smashed="yes">
+<attribute name="DATASHEET" value="https://drawings-pdf.s3.amazonaws.com/10492.pdf" x="76.92" y="-8.89" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="Digikey" x="76.92" y="-8.89" size="1.778" layer="27" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=PPTC021LFBN-RC" x="76.92" y="-8.89" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="S7000-ND" x="76.92" y="-8.89" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Sullins Connector Solutions" x="76.92" y="-8.89" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="PPTC021LFBN-RC" x="76.92" y="-8.89" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="35.629" y="44.45" size="0.5" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" value="PTH VERT FEMALE" x="40.471" y="44.45" size="0.25" layer="27" font="vector" ratio="10" rot="R90" align="top-center"/>
 </element>
 <element name="R1" library="_resistors" package="RESC1005X35_SMD-0402" package3d_urn="urn:adsk.eagle:package:2899165/1" value="10K" x="38.1" y="71" smashed="yes" rot="R270">
 <attribute name="DATASHEET" value="http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_51_RoHS_P_0.pdf" x="-15.24" y="21.47" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1767,31 +1735,43 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="J5" pad="34"/>
 <contactref element="J5" pad="33"/>
 <polygon width="0.254" layer="1" isolate="0.4064">
-<vertex x="13.97" y="109.68"/>
-<vertex x="13.97" y="38.6"/>
-<vertex x="102.12" y="38.6"/>
-<vertex x="102.12" y="109.68"/>
+<vertex x="14.32" y="107.53"/>
+<vertex x="14.32" y="38.6"/>
+<vertex x="101.47" y="38.6"/>
+<vertex x="101.47" y="107.53"/>
 </polygon>
 <wire x1="35.56" y1="99.06" x2="35.56" y2="96.52" width="0.1524" layer="16"/>
-<wire x1="85.51" y1="88.1125" x2="86.45" y2="87.1725" width="0.1524" layer="1"/>
-<wire x1="86.45" y1="87.1725" x2="86.45" y2="86.3" width="0.1524" layer="1"/>
-<wire x1="86.45" y1="86.3" x2="85.55" y2="85.4" width="0.1524" layer="1"/>
-<wire x1="85.55" y1="85.4" x2="84" y2="85.4" width="0.1524" layer="1"/>
-<wire x1="84" y1="85.4" x2="83.05" y2="84.45" width="0.1524" layer="1"/>
-<wire x1="83.05" y1="84.45" x2="83.05" y2="83.15" width="0.1524" layer="1"/>
 <wire x1="83.05" y1="83.15" x2="83.915" y2="82.285" width="0.1524" layer="1"/>
 <wire x1="83.915" y1="82.285" x2="84.6258" y2="82.285" width="0.1524" layer="1"/>
-<wire x1="37.2158" y1="81.015" x2="36.9978" y2="80.797" width="0.1524" layer="1"/>
-<wire x1="36.9978" y1="80.797" x2="36.2917625" y2="80.797" width="0.1524" layer="1"/>
-<wire x1="36.2917625" y1="80.797" x2="34.55" y2="79.0552375" width="0.1524" layer="1"/>
-<wire x1="34.55" y1="71.5275" x2="35.56" y2="70.5175" width="0.1524" layer="1"/>
-<wire x1="34.55" y1="79.0552375" x2="34.55" y2="71.5275" width="0.1524" layer="1"/>
 <polygon width="0.1524" layer="16">
-<vertex x="13.95" y="109.5"/>
-<vertex x="102.3" y="109.5"/>
-<vertex x="102.3" y="38.6"/>
-<vertex x="13.95" y="38.6"/>
+<vertex x="14.6" y="107.55"/>
+<vertex x="101.4" y="107.55"/>
+<vertex x="101.4" y="38.6"/>
+<vertex x="14.6" y="38.6"/>
 </polygon>
+<via x="34.232" y="65.732" extent="1-16" drill="0.254"/>
+<via x="36.703" y="65.759" extent="1-16" drill="0.254"/>
+<via x="29.972" y="73.787" extent="1-16" drill="0.254"/>
+<via x="38.735" y="81.026" extent="1-16" drill="0.254"/>
+<via x="38.1" y="69.596" extent="1-16" drill="0.254"/>
+<via x="35.687" y="69.596" extent="1-16" drill="0.254"/>
+<wire x1="37.2158" y1="81.015" x2="38.724" y2="81.015" width="0.1524" layer="1"/>
+<wire x1="38.724" y1="81.015" x2="38.735" y2="81.026" width="0.1524" layer="1"/>
+<via x="31.75" y="65.786" extent="1-16" drill="0.254"/>
+<via x="80.391" y="70.993" extent="1-16" drill="0.254"/>
+<via x="83.439" y="70.993" extent="1-16" drill="0.254"/>
+<via x="85.217" y="88.9" extent="1-16" drill="0.254"/>
+<via x="83.312" y="88.9" extent="1-16" drill="0.254"/>
+<via x="80.391" y="88.9" extent="1-16" drill="0.254"/>
+<via x="77.978" y="88.9" extent="1-16" drill="0.254"/>
+<via x="83.439" y="85.598" extent="1-16" drill="0.254"/>
+<wire x1="83.439" y1="85.598" x2="83.05" y2="85.209" width="0.1524" layer="1"/>
+<wire x1="83.05" y1="85.209" x2="83.05" y2="83.15" width="0.1524" layer="1"/>
+<via x="27.432" y="89.154" extent="1-16" drill="0.254"/>
+<via x="29.972" y="89.154" extent="1-16" drill="0.254"/>
+<via x="33.274" y="89.154" extent="1-16" drill="0.254"/>
+<via x="35.814" y="89.027" extent="1-16" drill="0.254"/>
+<via x="38.481" y="86.233" extent="1-16" drill="0.254"/>
 </signal>
 <signal name="N$1">
 <contactref element="R3" pad="1"/>
@@ -1891,8 +1871,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="35.2044" y1="82.1944" x2="35.325" y2="82.315" width="0.1524" layer="1"/>
 <wire x1="33.31136875" y1="80.2782" x2="35.2044" y2="82.17123125" width="0.1524" layer="1"/>
 <wire x1="30.98" y1="71.4825" x2="29.5" y2="70.0025" width="0.1524" layer="1"/>
-<wire x1="29.5" y1="51.78" x2="36.83" y2="44.45" width="0.1524" layer="1"/>
-<wire x1="29.5" y1="70.0025" x2="29.5" y2="51.78" width="0.1524" layer="1"/>
+<wire x1="29.5" y1="51.311221875" x2="37.55" y2="44.45" width="0.1524" layer="1"/>
+<wire x1="29.5" y1="70.0025" x2="29.5" y2="51.311221875" width="0.1524" layer="1"/>
 <via x="91.5" y="92.3" extent="1-16" drill="0.254"/>
 <wire x1="84.6258" y1="83.585" x2="86.035" y2="83.585" width="0.1524" layer="1"/>
 <wire x1="88.35" y1="85.9" x2="88.35" y2="89.35" width="0.1524" layer="1"/>
@@ -1918,8 +1898,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R18" pad="1"/>
 <contactref element="IC1" pad="26"/>
 <contactref element="IC2" pad="26"/>
-<wire x1="30.5" y1="53.32" x2="30.5" y2="67.5" width="0.1524" layer="1"/>
-<wire x1="30.5" y1="53.32" x2="39.37" y2="44.45" width="0.1524" layer="1"/>
+<wire x1="30.5" y1="52.838884375" x2="30.5" y2="67.5" width="0.1524" layer="1"/>
+<wire x1="30.5" y1="52.838884375" x2="40.09" y2="44.45" width="0.1524" layer="1"/>
 <wire x1="30.5" y1="67.5" x2="33.03" y2="70.03" width="0.1524" layer="1"/>
 <wire x1="33.03" y1="70.03" x2="33.03" y2="70.5675" width="0.1524" layer="1"/>
 <wire x1="33.03" y1="70.5675" x2="33.1675" y2="70.5675" width="0.1524" layer="1"/>
