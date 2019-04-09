@@ -166,10 +166,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="13.97" y1="38.1" x2="102.75" y2="38" width="0" layer="20"/>
-<wire x1="102.75" y1="38" x2="102.75" y2="113.87" width="0" layer="20"/>
-<wire x1="102.75" y1="113.87" x2="13.97" y2="113.97" width="0" layer="20"/>
-<wire x1="13.97" y1="113.97" x2="13.97" y2="38.1" width="0" layer="20"/>
+<wire x1="13.72" y1="38.4" x2="102" y2="38.05" width="0" layer="20"/>
+<wire x1="102" y1="38.05" x2="102.25" y2="112.27" width="0" layer="20"/>
+<wire x1="102.25" y1="112.27" x2="13.67" y2="112.42" width="0" layer="20"/>
+<wire x1="13.67" y1="112.42" x2="13.72" y2="38.4" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="_capacitors">
@@ -1763,10 +1763,10 @@ design rules under a new name.</description>
 <contactref element="J5" pad="34"/>
 <contactref element="J5" pad="33"/>
 <polygon width="0.254" layer="1" isolate="0.4064">
-<vertex x="13.97" y="113.03"/>
-<vertex x="13.97" y="38.1"/>
-<vertex x="102.87" y="38.1"/>
-<vertex x="102.87" y="113.03"/>
+<vertex x="13.97" y="112.53"/>
+<vertex x="13.97" y="38.2"/>
+<vertex x="102.12" y="38.2"/>
+<vertex x="102.12" y="112.53"/>
 </polygon>
 <wire x1="35.56" y1="99.06" x2="35.56" y2="96.52" width="0.1524" layer="16"/>
 <wire x1="85.51" y1="88.1125" x2="86.45" y2="87.1725" width="0.1524" layer="1"/>

@@ -1826,7 +1826,7 @@
 <part name="SUPPLY23" library="_power_symbols" deviceset="GND" device=""/>
 <part name="C2" library="_capacitors" deviceset="10UF" device="_CER_SMD-0402_6.3V-20%" package3d_urn="urn:adsk.eagle:package:2886515/1" value="10uF/6.3V"/>
 <part name="SUPPLY24" library="_power_symbols" deviceset="GND" device=""/>
-<part name="J1" library="_connectors" deviceset="1X02" device="_PTH_VERT_MALE_2.54MM" package3d_urn="urn:adsk.eagle:package:4781708/8" value="PTH VERT MALE"/>
+<part name="J1" library="_connectors" deviceset="1X02" device="_PTH_VERT_FEMALE_2.54MM" package3d_urn="urn:adsk.eagle:package:4781720/1" value="PTH VERT FEMALE"/>
 <part name="R4" library="_resistors" deviceset="10KΩ" device="_SMD-0402_1/16W-5%" package3d_urn="urn:adsk.eagle:package:2899165/1" value="10K"/>
 <part name="SUPPLY25" library="_power_symbols" deviceset="VCC" device=""/>
 <part name="SUPPLY26" library="_power_symbols" deviceset="VCC" device=""/>
